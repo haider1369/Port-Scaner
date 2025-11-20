@@ -33,9 +33,8 @@ Run the script:
 ```bash
 python port_scanner.py
 ```
-
-```Example interaction:
-
+Example interaction:
+```
 Enter target: scanme.nmap.org
 Scan Types:
 1. Single Port
