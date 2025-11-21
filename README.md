@@ -20,10 +20,6 @@ Automatically grabs banners and identifies open ports.
 ✔ Stop Scan Anytime  
 ✔ Exportable as `.exe`  
 
----
-
-## 🖼 GUI Preview
-(No image included — you can add a screenshot here.)
 
 ---
 
