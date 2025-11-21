@@ -27,12 +27,6 @@ Automatically grabs banners and identifies open ports.
 
 ---
 
-## 📦 Installation
-
-### **1. Install Requirements**
-```bash
-pip install -r requirements.txt
-```
 ## 📜 License
 MIT License.
 
