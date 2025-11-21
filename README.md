@@ -1,52 +1,38 @@
-# 🔍 Python Port Scanner
-
-A fast, multithreaded **Port Scanner** built using Python.  
-Perfect for cybersecurity students, ethical hacking practice, and GitHub portfolio projects.
-
----
-
-## 🚀 Features
-
-✔ Scan a single port  
-✔ Scan a range of ports  
-✔ Full 1–65535 port scan  
-✔ Banner grabbing  
-✔ Service detection  
-✔ Multithreaded (FAST)  
-✔ Works on Windows, Linux, macOS  
+# 🔍 Python GUI Port Scanner  
+A powerful and beginner-friendly **Cybersecurity Port Scanner** built using Python + Tkinter.  
+Supports single port scanning, port ranges, and full 1–65535 scan.  
+Automatically grabs banners and identifies open ports.
 
 ---
 
-## 🛠️ How It Works
+## ✨ Features
 
-The scanner uses:
-- `socket.connect_ex()` to check if a port is open  
-- Multithreading to increase speed  
-- Timeout control for efficiency  
-- Banner grabbing using simple socket messages  
+✔ Beautiful GUI (Tkinter)  
+✔ Scan:
+- Single Port  
+- Port Range  
+- Full Scan (1–65535)  
+
+✔ Banner Grabbing  
+✔ Multi-Threading (Fast Results)  
+✔ Real-Time Output  
+✔ Progress Status  
+✔ Stop Scan Anytime  
+✔ Exportable as `.exe`  
 
 ---
-## ▶️ Usage
 
-Run the script:
+## 🖼 GUI Preview
+(No image included — you can add a screenshot here.)
 
+---
+
+## 📦 Installation
+
+### **1. Install Requirements**
 ```bash
-python port_scanner.py
+pip install -r requirements.txt
 ```
-Example interaction:
-```
-Enter target: scanme.nmap.org
-Scan Types:
-1. Single Port
-2. Port Range
-3. Full Scan (1–65535)
-
-Select option: 2
-Start: 20
-End: 100
-```
----
-
 ## 📜 License
 MIT License.
 
@@ -55,6 +41,3 @@ MIT License.
 ## 👤 Author
 Created by **Haider Sultan**  
 Cybersecurity Student & Python Learner
-
-
-
